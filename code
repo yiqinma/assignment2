@@ -39,7 +39,7 @@ T = T - 273.15;
 T = (T * 9.0)/ 5.0 + 32.0; 
 
 lcd.setCursor(0,0); 
-lcd.print("Temp = ");
+lcd.print("Temp : ");
 lcd.print(T);   
 lcd.print(" F");
 
